@@ -1,0 +1,7 @@
+   
+lowercaseOutputName: true
+rules:
+- pattern : kafka.server:name=(\w+)PerSec\w*, topic=(.+), type=(.+)<>MeanRate
+  name: kafka_server_$3_$1_total
+  labels:
+    topic: "$2"

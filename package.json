@@ -1,0 +1,17 @@
+{
+  "name": "jmximporter",
+  "version": "1.0.0",
+  "description": "NodeJS JMX importer",
+  "main": "index.js",
+  "author": "Sergio Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "java": "^0.10.0",
+    "jmx": "^0.7.0",
+    "js-yaml": "^3.12.0",
+    "log4js": "^2.8.0",
+    "moment": "^2.22.2",
+    "yargs": "^11.0.0"
+  }
+}
